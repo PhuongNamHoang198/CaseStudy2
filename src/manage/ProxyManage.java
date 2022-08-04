@@ -34,6 +34,7 @@ public class ProxyManage implements Manage,Runnable{
 
     @Override
     public void addNew(Vehicle vehicle) {
+
         if (position==Position.MANAGE) vehicleManage.addNew(vehicle);
     }
 
@@ -77,7 +78,7 @@ public class ProxyManage implements Manage,Runnable{
         while (true) {
             try {
                 this.releaseVehicle();
-                Thread.sleep(60000);
+                Thread.sleep(30000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

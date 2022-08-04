@@ -13,7 +13,7 @@ public class VehicleFactory {
             case Motorbike:
                 return new Motorbike(licensePlate,name);
             default:
-                throw new IllegalArgumentException("Phương tiện không được hỗ trợ");
+               throw new IllegalArgumentException("Phương tiện không được hỗ trợ");
         }
     }
 }

@@ -21,10 +21,12 @@ public abstract class Vehicle implements Serializable {
     }
 
     public String getLicensePlate() {
+
         return licensePlate;
     }
 
     public String getDriverName() {
+
         return driverName;
     }
 
@@ -33,6 +35,7 @@ public abstract class Vehicle implements Serializable {
     }
 
     public void setLicensePlate(String licensePlate) {
+
         this.licensePlate = licensePlate;
     }
 
