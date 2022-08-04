@@ -1,8 +1,6 @@
-Motorbike { licensePlate='AA-11111', driverName='A', distance=0 revenue = 0, isAvaiable=true}
-Motorbike { licensePlate='BB-22222', driverName='B', distance=0 revenue = 0, isAvaiable=true}
-Taxi { licensePlate='CC-33333', driverName='C', distance=74 revenue = 700, isAvaiable=true}
-Taxi { licensePlate='DD-44444', driverName='D', distance=0 revenue = 0, isAvaiable=true}
-Taxi { licensePlate='EE-55555', driverName='E', distance=65 revenue = 650, isAvaiable=true}
-Motorbike { licensePlate='FF-66666', driverName='F', distance=0 revenue = 0, isAvaiable=true}
-Taxi { licensePlate='GG-77777', driverName='G', distance=12 revenue = 200, isAvaiable=true}
-Motorbike { licensePlate='HH-88888', driverName='H', distance=12 revenue = 150, isAvaiable=true}
+Motorbike { licensePlate='AA-11111', driverName='RO NAN DO', distance=0 revenue = 0, isAvailable=true}
+Taxi { licensePlate='BB-22222', driverName='MEC XI', distance=0 revenue = 0, isAvailable=true}
+Taxi { licensePlate='CC-33333', driverName='M PAPE', distance=0 revenue = 0, isAvailable=true}
+Motorbike { licensePlate='DD-44444', driverName='HARY MAC HAI', distance=0 revenue = 0, isAvailable=true}
+Taxi { licensePlate='EE-55555', driverName='N GO LO CON TE', distance=0 revenue = 0, isAvailable=true}
+Motorbike { licensePlate='FF-66666', driverName='MAY SUT O LIU', distance=0 revenue = 0, isAvailable=true}

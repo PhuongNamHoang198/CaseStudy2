@@ -1,12 +1,14 @@
 package view;
 
+import manage.Manage;
+import manage.ProxyManage;
+import manage.VehicleManage;
 import model.Position;
 import model.Vehicle;
 import model.VehicleType;
 import service.*;
 import storage.ReadAndWrite;
 
-import java.net.PortUnreachableException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

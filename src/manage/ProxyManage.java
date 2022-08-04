@@ -1,7 +1,8 @@
-package service;
+package manage;
 
 import model.Position;
 import model.Vehicle;
+
 import java.util.Comparator;
 import java.util.List;
 
