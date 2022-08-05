@@ -37,7 +37,7 @@ public class Main {
             choice = Menu();
             switch (choice){
                 case 1:
-                    client.show(client.getListAvaiable());
+                    client.show(client.getListAvailable());
                     break;
                 case 2:
                     takeAVehicle(client);
@@ -79,8 +79,8 @@ public class Main {
         System.out.println("3. Thêm mới");
         System.out.println("4. Thay lái xe");
         System.out.println("5. Xóa");
-        System.out.println("6. Hiển thị top 3 có doanh thu cao nhât");
-        System.out.println("7. Hiển thị top 3 có doanh thu thấp nhât");
+        System.out.println("6. Hiển thị top 3 có doanh thu cao nhất");
+        System.out.println("7. Hiển thị top 3 có doanh thu thấp nhất");
         System.out.println("8. Hiển thị toàn bộ danh sách");
         System.out.println("0. Thoát chương trình");
         System.out.println("--------------------");

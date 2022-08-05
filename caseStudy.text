@@ -1,7 +1,6 @@
 Motorbike { licensePlate='DD-44444', driverName='HARY MAC HAI', distance=10 revenue = 50, isAvailable=true}
 Motorbike { licensePlate='FF-66666', driverName='MAY SUT O LIU', distance=20 revenue = 100, isAvailable=true}
-Taxi { licensePlate='CC-33333', driverName='M PAPE', distance=3 revenue = 30, isAvailable=true}
 Taxi { licensePlate='EE-55555', driverName='N GO LO CON TE', distance=5 revenue = 50, isAvailable=true}
 Motorbike { licensePlate='GG-77777', driverName='NEYMA', distance=11 revenue = 55, isAvailable=true}
-Motorbike { licensePlate='AA-11111', driverName='RO NAN DO', distance=8 revenue = 40, isAvailable=true}
 Taxi { licensePlate='BB-22222', driverName='MEC XI', distance=27 revenue = 270, isAvailable=true}
+Taxi { licensePlate='CC-33333', driverName='M PAPE', distance=4 revenue = 40, isAvailable=true}

@@ -7,7 +7,7 @@ import java.util.List;
 public interface Manage {
     void setVehicleList(List<Vehicle> vehicleList);
     List<Vehicle> getVehicleList();
-    List<Vehicle> getListAvaiable();
+    List<Vehicle> getListAvailable();
     void addNew(Vehicle vehicle);
     String editName(String licensePlate, String name);
     String remove(String licensePlate);

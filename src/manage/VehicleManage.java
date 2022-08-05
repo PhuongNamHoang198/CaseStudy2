@@ -12,7 +12,7 @@ public class VehicleManage implements Manage {
     static public final String FILE_NAME_TEXT="caseStudy.text";
     private static VehicleManage instance;
     private List<Vehicle> vehicleList;
-    private VehicleManage(){};
+    private VehicleManage(){}
     public static VehicleManage getInstance(){
         if (instance==null) instance=new VehicleManage();
         return instance;
@@ -28,7 +28,7 @@ public class VehicleManage implements Manage {
         return vehicleList;
     }
     @Override
-    public  List<Vehicle> getListAvaiable(){
+    public  List<Vehicle> getListAvailable(){
         List<Vehicle> list=new ArrayList<>();
         for (Vehicle v:vehicleList) {
             if (v.getStatus()) list.add(v);

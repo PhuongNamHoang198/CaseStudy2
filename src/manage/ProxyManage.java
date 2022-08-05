@@ -27,8 +27,8 @@ public class ProxyManage implements Manage,Runnable{
 
     @Override
     //lấy danh sách có sẵn
-    public List<Vehicle> getListAvaiable() {
-        if (position==Position.CLIENT) return vehicleManage.getListAvaiable();
+    public List<Vehicle> getListAvailable() {
+        if (position==Position.CLIENT) return vehicleManage.getListAvailable();
         return null;
     }
 
@@ -73,7 +73,7 @@ public class ProxyManage implements Manage,Runnable{
     }
 
     @Override
-    //cho phương tiện chay trong 60s
+    //cho phương tiện chay trong 30s
     public void run() {
         while (true) {
             try {
